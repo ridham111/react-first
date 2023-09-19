@@ -5,18 +5,21 @@ import Tooltip from './Tooltip/Tooltip';
 function App() {
   return (
     <div className="App ">
+      <div className='tooltip-position'>
       <Tooltip position="top" text="Top Tooltip">
-        <button>Hover Me</button>
+        <button>Top Tooltip</button>
       </Tooltip>
       <Tooltip position="bottom" text="Bottom Tooltip">
-        <button>Hover Me</button>
+        <button>Bottom Tooltip</button>
       </Tooltip>
       <Tooltip position="left" text="Left Tooltip">
-        <button>Hover Me</button>
+        <button>Left Tooltip</button>
       </Tooltip>
       <Tooltip position="right" text="Right Tooltip">
-        <button>Hover Me</button>
+        <button>Right Tooltip</button>
       </Tooltip>
+      </div>
+      
     </div>
   );
 }
